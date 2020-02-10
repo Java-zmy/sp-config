@@ -35,6 +35,8 @@ management:
       exposure:
         include: hystrix.stream
 spring:
+  ......
   cloud:
     config:
-      override-none: true           
+      override-none: true
+          
